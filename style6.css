@@ -1,0 +1,25 @@
+/* General table styles */
+table {
+    width: 100%; /* 20% padding on both left and right */
+    margin: 0 auto; /* Center the table horizontally */
+    border-collapse: separate;
+    /* border-spacing: 10px; Adds spacing between cells */
+}
+
+/* Style for table headers */
+th {
+    background-color: #79bfbf;
+    padding: 2px;
+    border: 1px solid #000;
+    border-radius: 10px; /* Rounded rectangle border */
+    font-weight: bold; /* Make the first row bold */
+    text-align: center;
+}
+
+/* Style for table cells */
+td {
+    padding: 2px;
+    border: 1px solid #000;
+    border-radius: 10px; /* Rounded rectangle border */
+    text-align: left; /* Center text within cells */
+}

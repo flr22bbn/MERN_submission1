@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 5</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 50%;
+        }
+        th, td {
+            border: 2px solid #444;
+            text-align: left;
+            padding: 2px;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .center-text {
+            text-align: center;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="number"],
+        input[type="tel"],
+        textarea,
+        select {
+            width: 95%; /* Adjusted to fit the table row */
+            padding: 4px;
+            margin: 1px 0;
+        }
+    </style>
+</head>
+<body>
+    <h4 align="left"><b>Flora Boban V</b></h4>
+    <h4 align="left"><b>Task 5 HTML</b></h4>
+    <b><h1 style="color: blue;" class="center-text">Registration Form</h1></b>
+    <table>
+        <tr>
+            <td><b>First Name:</b></td>
+            <td><input type="text" name="first_name"></td>
+        </tr>
+        <tr>
+            <td><b>Last Name:</b></td>
+            <td><input type="text" name="last_name"></td>
+        </tr>
+        <tr>
+            <td><b>Email:</b></td>
+            <td><input type="email" name="email"></td>
+        </tr>
+        <tr>
+            <td><b>Password:</b></td>
+            <td><input type="password" name="password"></td>
+        </tr>
+        <tr>
+            <td><b>Re-enter Password:</b></td>
+            <td><input type="password" name="reenter_password"></td>
+        </tr>
+        <tr>
+            <td rowspan="2"><b>Gender:</b></td>
+            <td><input type="radio" name="gender" value="Male">Male</td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="gender" value="Female">Female</td>
+        </tr>
+        <tr>
+            <td><b>Age:</b></td>
+            <td><input type="number" name="age"></td>
+        </tr>
+        <tr>
+            <td><b>Phone Number:</b></td>
+            <td><input type="tel" name="phone_number"></td>
+        </tr>
+        <tr>
+            <td><b>Address:</b></td>
+            <td><textarea name="address" rows="1" cols="20"></textarea></td>
+        </tr>
+        <tr>
+            <td><b>State:</b></td>
+            <td><input type="text" name="state"></td>
+        </tr>
+        <tr>
+            <td><b>Country (Dropdown):</b></td>
+            <td>
+                <select name="country">
+                    <option value="USA">USA</option>
+                    <option value="Canada">Canada</option>
+                    <option value="India">India</option>
+                    <!-- Add more options as needed -->
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><b>Languages Known:</b></td>
+            <td>
+                <input type="checkbox" name="languages[]" value="English">English
+                <input type="checkbox" name="languages[]" value="Kannada">Kannada
+                <input type="checkbox" name="languages[]" value="Hindi">Hindi
+                <input type="checkbox" name="languages[]" value="Telugu">Telugu
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="checkbox" name="declaration">Hereby I declare all the given details are true</td>
+        </tr>
+        <td colspan="2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+            Log in to <a href="https://ethnus.com" target="_blank">Ethnus</a> website</td>
+    </table>
+    <br>
+    <button>Register</button>
+</body>
+</html>
